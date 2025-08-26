@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f0f4f8;
+    background-color: #fffbc9;
     color: #333;
     min-height: 100vh;
     position: relative;
@@ -103,7 +103,7 @@ section {
 
 .service-image {
     max-width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     margin: 0 auto;
     height: auto;
     overflow: hidden;
@@ -116,6 +116,25 @@ section {
     height: 350px;
     object-fit: cover;
     border-radius: 5px;    
+}
+
+.contact {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;  
+    padding: 20px;
+}
+
+.contact img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    padding: 30px;
+    border-radius: 200px;
 }
 
 .image-section img:hover {
