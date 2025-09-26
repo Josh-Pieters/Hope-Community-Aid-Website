@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +10,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="nav-container">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="services.html">Services</a>
@@ -18,19 +19,29 @@
         </nav>
     </header>
 
-    <section>
+    <section class="enquiry-section">
         <h1>Enquiry Form</h1>
+        <p>Interested in our services or want to get involved? Send us a message!</p>
+        
         <form class="enquiry-form">
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Your Enquiry" rows="5" required></textarea>
-            <select name="enquiry-type" required>
-                <option value="">Select Enquiry Type</option>
-                <option value="service">Service Enquiry</option>
-                <option value="volunteer">Volunteer Enquiry</option>
-                <option value="sponsor">Sponsor Enquiry</option>
-            </select>
-            <button type="submit">Submit Enquiry</button>
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <select name="enquiry-type" required>
+                    <option value="">Select Enquiry Type</option>
+                    <option value="service">Service Enquiry</option>
+                    <option value="volunteer">Volunteer Enquiry</option>
+                    <option value="sponsor">Sponsor Enquiry</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Enquiry" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Enquiry</button>
         </form>
     </section>
 
