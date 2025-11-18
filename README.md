@@ -40,7 +40,7 @@ Embedded Google Maps with location
 
 Smooth scrolling navigation
 
-🔍 SEO & Performance
+#🔍 SEO & Performance
 Comprehensive SEO optimization with meta tags and structured data
 
 Open Graph and Twitter Card integration
@@ -104,30 +104,6 @@ Enquiry (enquiry.html) - Contact form for general enquiries with datepicker
 
 Contact (contact.html) - Contact information and interactive map
 
-#📁 File Structure
-├── index.html
-├── about.html
-├── services.html
-├── contact.html
-├── enquiry.html
-├── robots.txt
-├── sitemap.xml
-├── css/
-│   ├── styles.css
-│   └── lightbox.css
-├── js/
-│   └── script.js
-├── images/
-│   ├── heroImage.png
-│   ├── HistoricalComunityGathering.png
-│   ├── supportMission.png
-│   ├── thrivingCommunity.png
-│   ├── foodService.png
-│   ├── contact_resized.png
-│   ├── favicon.ico
-│   ├── apple-touch-icon.png
-│   ├── favicon-32x32.png
-│   └── favicon-16x16.png
 #JavaScript Features
 Core Functionality
 Form validation with custom error messages
@@ -213,7 +189,7 @@ Services	Contact
 <img width="1365" height="630" alt="Services Desktop" src="https://github.com/user-attachments/assets/4c57ad0e-6518-49b4-8295-00c713c13233" />	<img width="1365" height="633" alt="Contact Desktop" src="https://github.com/user-attachments/assets/f37431fd-3afd-4d52-8140-b5084337604d" />
 Mobile Views
 Home Mobile	About Mobile	Services Mobile
-<img width="1365" height="630" alt="Services Desktop" src="https://github.com/user-attachments/assets/e96774ae-9ace-4337-8bb2-1349ee581f4d" />	<img width="1365" height="633" alt="Contact Desktop" src="https://github.com/user-attachments/assets/1b6e7056-e024-4a75-9729-d8d0e9da84f8" />
+<img width="630" height="1365" alt="Services Desktop" src="https://github.com/user-attachments/assets/e96774ae-9ace-4337-8bb2-1349ee581f4d" />	<img width="1365" height="633" alt="Contact Desktop" src="https://github.com/user-attachments/assets/1b6e7056-e024-4a75-9729-d8d0e9da84f8" />
 <img width="1365" height="633" alt="Contact Desktop" src="https://github.com/user-attachments/assets/6086a772-2d27-4bbd-9a23-b33998e89d54" />
 		
 #References
