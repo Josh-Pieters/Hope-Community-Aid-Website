@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquiry Form - Get Involved with Hope Community Aid Programs</title>
+    <meta name="description" content="Submit an enquiry to Hope Community Aid. Interested in our services, volunteering, or sponsorship opportunities? Contact us today to make a difference in Strandfontein.">
+    <meta name="keywords" content="Hope Community Aid enquiry, volunteer application, sponsorship opportunities, service enquiries, get involved Strandfontein">
+    <meta name="author" content="Hope Community Aid">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hopecommunityaid.somee.com/enquiry.html">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="js/script.js" defer></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hope Community Aid - Enquiry</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
 
-<body>
+  <body>
     <header>
-        <nav class="nav-container">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-            <a href="enquiry.html">Enquiry</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+      <nav class="nav-container">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
 
     <section class="enquiry-section">
-        <h1>Enquiry Form</h1>
-        <p>Interested in our services or want to get involved? Send us a message!</p>
-        
-        <form class="enquiry-form">
-            <div class="form-group">
-                <input type="text" placeholder="Full Name" required>
-            </div>
-            <div class="form-group">
-                <input type="email" placeholder="Email Address" required>
-            </div>
-            <div class="form-group">
-                <select name="enquiry-type" required>
-                    <option value="">Select Enquiry Type</option>
-                    <option value="service">Service Enquiry</option>
-                    <option value="volunteer">Volunteer Enquiry</option>
-                    <option value="sponsor">Sponsor Enquiry</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <textarea placeholder="Your Enquiry" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">Submit Enquiry</button>
-        </form>
+      <h1>Enquiry Form</h1>
+      <p>
+        Interested in our services or want to get involved? Send us a message!
+      </p>
+
+      <form class="enquiry-form" id="enquiryForm">
+        <div class="form-group">
+          <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <input type="text" id="contactDate" class="datepicker" placeholder="Preferred Contact Date" required>
+        </div>
+        <div class="form-group">
+          <select name="enquiry-type" required>
+            <option value="">Select Enquiry Type</option>
+            <option value="service">Service Enquiry</option>
+            <option value="volunteer">Volunteer Enquiry</option>
+            <option value="sponsor">Sponsor Enquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Enquiry" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit Enquiry</button>
+      </form>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Hope Community Aid. All rights reserved.</p>
-    </footer>
-</body>
+    <!-- Lightbox Structure -->
+    <div id="lightbox" class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-nav">
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+      </div>
+      <img class="lightbox-content" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
 
+    <footer>
+      <p>&copy; 2025 Hope Community Aid. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

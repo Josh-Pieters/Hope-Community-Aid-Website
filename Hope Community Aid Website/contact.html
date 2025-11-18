@@ -3,8 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hope Community Aid - Contact</title>
+    <title>Contact Hope Community Aid - Strandfontein Office Location & Information</title>
+    <meta name="description" content="Contact Hope Community Aid in Strandfontein, Cape Town. Find our location, phone numbers, email, and send us a message. We're here to help the community.">
+    <meta name="keywords" content="contact Hope Community Aid, Strandfontein charity contact, Cape Town community aid, volunteer contact, donation enquiries">
+    <meta name="author" content="Hope Community Aid">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hopecommunityaid.somee.com/contact.html">
+    
+    <!-- Local SEO Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Hope Community Aid",
+        "description": "Community aid organization providing food parcels, educational workshops, and youth mentorship programs in Strandfontein, Cape Town.",
+        "url": "https://hopecommunityaid.somee.com",
+        "telephone": "+27-21-393-0123",
+        "email": "info@hopecommunityaid.org",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "175 Dennegeur Ave",
+            "addressLocality": "Strandfontein Village",
+            "addressRegion": "Cape Town",
+            "postalCode": "7789",
+            "addressCountry": "ZA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-34.07151",
+            "longitude": "18.56341"
+        },
+        "openingHours": "Mo-Fr 09:00-17:00",
+        "areaServed": "Strandfontein, Cape Town",
+        "sameAs": [
+            "https://www.facebook.com/hopecommunityaid",
+            "https://www.twitter.com/hopecommunityaid",
+            "https://www.instagram.com/hopecommunityaid"
+        ]
+    }
+    </script>
+    
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="js/script.js" defer></script>
   </head>
 
   <body>
@@ -21,7 +65,7 @@
     <section class="contact-section">
       <h1>Contact Us</h1>
       <div class="contact-image">
-        <img src="images/contact_resized.png" alt="Contact community locations" />
+        <img src="images/contact_resized.png" alt="Contact community locations" class="gallery-image" />
       </div>
 
       <div class="contact-grid">
@@ -46,21 +90,33 @@
       <div class="map-container">
         <iframe
           class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.0699627185604!2d18.561218086005567!3d-34.07151059400544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc46f3c1de46db%3A0x9b4bd2b7ce7dccd5!2s175%20Dennegeur%20Ave%2C%20Strandfontein%20Village%2C%20Cape%20Town%2C%207798!5e0!3m2!1sen!2sza!4v1756038720199!5m2!1sen!2sza"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.0699627185604!2d18.561218086005567!3d-34.07151059400544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc46f3c1de46db%3A0x9b4bd2b7ce7dccd5!2s175%20Dennegeur%20Ave%2C%20Strandfontein%20Village%2C%20Cape%20Town%2C%207789!5e0!3m2!1sen!2sza!4v1756038720199!5m2!1sen!2sza"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
 
-      <form class="contact-form">
+      <form class="contact-form" id="contactForm">
         <h2>Send us a Message</h2>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
+        <input type="text" id="contactName" placeholder="Your Name" required />
+        <input type="email" id="contactEmail" placeholder="Your Email" required />
+        <input type="text" id="messageDate" class="datepicker" placeholder="Preferred Response Date" />
         <textarea placeholder="Your Message" rows="5" required></textarea>
         <button type="submit">Send Message</button>
       </form>
     </section>
+
+    <!-- Lightbox Structure -->
+    <div id="lightbox" class="lightbox">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-nav">
+        <span class="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next">&#10095;</span>
+      </div>
+      <img class="lightbox-content" id="lightbox-img">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
 
     <footer>
       <p>&copy; 2025 Hope Community Aid. All rights reserved.</p>
