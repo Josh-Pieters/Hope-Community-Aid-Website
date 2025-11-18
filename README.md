@@ -189,8 +189,8 @@ Services	Contact
 <img width="1365" height="630" alt="Services Desktop" src="https://github.com/user-attachments/assets/4c57ad0e-6518-49b4-8295-00c713c13233" />	<img width="1365" height="633" alt="Contact Desktop" src="https://github.com/user-attachments/assets/f37431fd-3afd-4d52-8140-b5084337604d" />
 Mobile Views
 Home Mobile	About Mobile	Services Mobile
-<img width="630" height="1365" alt="Services Desktop" src="https://github.com/user-attachments/assets/e96774ae-9ace-4337-8bb2-1349ee581f4d" />	<img width="1365" height="633" alt="Contact Desktop" src="https://github.com/user-attachments/assets/1b6e7056-e024-4a75-9729-d8d0e9da84f8" />
-<img width="1365" height="633" alt="Contact Desktop" src="https://github.com/user-attachments/assets/6086a772-2d27-4bbd-9a23-b33998e89d54" />
+<img width="630" height="1365" alt="Services Desktop" src="https://github.com/user-attachments/assets/e96774ae-9ace-4337-8bb2-1349ee581f4d" />	<img width="630" height="1365" alt="Contact Desktop" src="https://github.com/user-attachments/assets/1b6e7056-e024-4a75-9729-d8d0e9da84f8" />
+<img width="630" height="1365" alt="Contact Desktop" src="https://github.com/user-attachments/assets/6086a772-2d27-4bbd-9a23-b33998e89d54" />
 		
 #References
 GeeksForGeeks (2025) - A computer science portal for geeks. Available at: https://www.geeksforgeeks.org/ (Accessed: 21 August 2025)
